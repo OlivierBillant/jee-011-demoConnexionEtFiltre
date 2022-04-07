@@ -1,0 +1,12 @@
+<nav>
+	<ul>
+		<%-- parce qu'on utilise des sous -url /admin on doit utiliser : ${pageContext.request.contextPath} : réference vers l'url de l'application : http://localhost:8080/DemoSessionFiltre --%>
+		<li><a href="${pageContext.request.contextPath}/">Accueil</a></li>
+		<li><a href="${pageContext.request.contextPath}/page1">Page 1</a></li>
+		<li><a href="${pageContext.request.contextPath}/page2">Page 2</a></li>
+		<li><a href="${pageContext.request.contextPath}/page3">Page 3</a></li>
+		<li><a href="${pageContext.request.contextPath}/admin/page1">Page 1 ADMIN</a></li>
+		<li><a href="${pageContext.request.contextPath}/admin/page2">Page 2 ADMIN</a></li>
+		<li><a href="${pageContext.request.contextPath}/connexion">Connexion</a></li>
+	</ul>
+</nav>
